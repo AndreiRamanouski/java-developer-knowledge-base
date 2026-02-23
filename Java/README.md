@@ -109,6 +109,118 @@ A comprehensive reference for Java developers covering core internals, modern fe
 
 ---
 
+### Section 2: Java Concurrency & Multithreading
+
+**Thread creation and lifecycle**
+- Thread vs Runnable vs Callable
+- Thread states (NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED)
+- Thread priorities and scheduling
+- Daemon threads vs user threads
+- Thread.sleep() vs Object.wait()
+- Thread.join() and thread coordination
+- Virtual threads (Project Loom - Java 19+)
+- Executor framework and thread pools
+
+**ThreadPoolExecutor parameters (corePoolSize, maximumPoolSize, keepAliveTime)**
+- ExecutorService types (fixed, cached, single, scheduled)
+- BlockingQueue implementations (LinkedBlockingQueue, ArrayBlockingQueue, SynchronousQueue)
+- RejectedExecutionHandler strategies
+- ForkJoinPool and work-stealing
+- Custom thread factories
+- Thread pool sizing formula
+- CompletableFuture and async programming
+
+**Creating CompletableFuture (supplyAsync, runAsync)**
+- Chaining operations (thenApply, thenAccept, thenRun)
+- Combining futures (thenCombine, thenCompose, allOf, anyOf)
+- Exception handling (exceptionally, handle, whenComplete)
+- Custom executors with CompletableFuture
+- Avoiding blocking operations
+- Real-world patterns
+- Lock implementations (ReentrantLock, ReadWriteLock)
+
+**Lock vs synchronized**
+- ReentrantLock fairness
+- tryLock() with timeout
+- Condition variables
+- ReadWriteLock for read-heavy scenarios
+- StampedLock (optimistic reads)
+- Lock-free algorithms
+- Concurrent collections deep dive
+
+**ConcurrentHashMap implementation (segments, buckets, CAS)**
+- CopyOnWriteArrayList use cases
+- BlockingQueue implementations comparison
+- ConcurrentLinkedQueue (non-blocking)
+- ConcurrentSkipListMap (sorted, concurrent)
+- When to use each collection
+- Performance benchmarks
+- Atomic classes and CAS operations
+
+**AtomicInteger, AtomicLong, AtomicReference**
+- Compare-and-swap (CAS) algorithm
+- ABA problem and AtomicStampedReference
+- LongAdder vs AtomicLong (high contention)
+- FieldUpdater for existing classes
+- Building lock-free data structures
+- Performance implications
+- Synchronizers (CountDownLatch, CyclicBarrier, Semaphore, Phaser)
+
+**CountDownLatch for one-time events**
+- CyclicBarrier for recurring synchronization
+- Semaphore for resource limiting
+- Phaser for dynamic parties
+- Exchanger for thread pairs
+- Use case comparison
+- Real-world examples
+- ThreadLocal and context propagation
+
+**ThreadLocal usage and patterns**
+- InheritableThreadLocal for child threads
+- ThreadLocal memory leaks (in thread pools)
+- Context propagation in async code
+- RequestContextHolder in Spring
+- MDC (Mapped Diagnostic Context) in logging
+- Cleaning up ThreadLocal
+- Deadlock, livelock, and starvation
+
+**Deadlock conditions (mutual exclusion, hold and wait, no preemption, circular wait)**
+- Detecting deadlocks (jstack, VisualVM)
+- Deadlock prevention strategies
+- Livelock scenarios
+- Thread starvation and fairness
+- Dining philosophers problem
+- Real-world deadlock debugging
+- Memory models and concurrent programming patterns
+
+**Java Memory Model (JMM)**
+- Visibility, atomicity, ordering
+- Safe publication patterns
+- Producer-consumer pattern
+- Thread-safe singleton patterns
+- Immutability for concurrency
+- Concurrent design principles
+- Fork/Join framework
+
+**RecursiveTask vs RecursiveAction**
+- Work-stealing algorithm
+- When to use Fork/Join vs ExecutorService
+- Parallel streams implementation
+- Common pitfalls (too many tasks, blocking)
+- Performance tuning
+- Real-world use cases
+- Advanced concurrency patterns
+
+**Double-checked locking (correct implementation)**
+- Spin locks and busy waiting
+- Lock striping (ConcurrentHashMap)
+- Read-copy-update (RCU) pattern
+- Disruptor pattern (LMAX)
+- Actor model concepts
+- Reactive programming paradigms
+
+---
+
 ## Contributing
 
 Found an error, have a better example, or want to add a missing section? See the [Contributing Guide](../CONTRIBUTING.md).
