@@ -221,6 +221,76 @@ A comprehensive reference for Java developers covering core internals, modern fe
 
 ---
 
+**Internal implementation of HashMap**
+- Array + LinkedList/TreeNode structure
+- Hash function and bucket selection
+- Collision handling (chaining, treeify at threshold 8)
+- Load factor and resizing (rehashing)
+- Java 8+ improvements (balanced trees)
+- equals() and hashCode() contract
+- Common pitfalls and best practices
+- TreeMap, LinkedHashMap, and specialized maps
+
+**TreeMap (Red-Black tree implementation)**
+- NavigableMap operations
+- LinkedHashMap (insertion order, access order)
+- LRU cache implementation
+- WeakHashMap for cache scenarios
+- IdentityHashMap (reference equality)
+- EnumMap performance benefits
+- ArrayList vs LinkedList - when to use each
+
+**Internal structure comparison**
+- Big O complexity analysis
+- Random access vs sequential access
+- Memory overhead
+- Insertion/deletion performance
+- Iterator performance
+- Real-world decision criteria
+- HashSet, TreeSet, LinkedHashSet internals
+
+**HashSet backed by HashMap**
+- TreeSet backed by TreeMap
+- LinkedHashSet maintaining order
+- Custom comparators and Comparable
+- Set operations performance
+- Choosing the right Set implementation
+- Queue and Deque implementations
+
+**PriorityQueue (heap implementation)**
+- ArrayDeque vs LinkedList as Deque
+- BlockingQueue for producer-consumer
+- DelayQueue for scheduling
+- TransferQueue semantics
+- Choosing the right Queue
+- Comparable vs Comparator
+
+**Natural ordering with Comparable**
+- Custom ordering with Comparator
+- Comparator chaining (thenComparing)
+- Comparator.comparing() method references
+- Null handling in comparisons
+- Sorting stability
+- Performance considerations
+- Collection performance and Big O analysis
+
+**Time complexity for each operation**
+- Space complexity considerations
+- Amortized analysis (ArrayList resizing)
+- Cache locality and memory access patterns
+- Benchmarking collections (JMH)
+- Choosing optimal data structure
+- Immutable collections and defensive copying
+
+**Collections.unmodifiableXXX()**
+- List.of(), Set.of(), Map.of() (Java 9+)
+- Guava ImmutableList, ImmutableMap
+- Defensive copying strategies
+- Performance of immutable collections
+- When to use immutability
+
+---
+
 ## Contributing
 
 Found an error, have a better example, or want to add a missing section? See the [Contributing Guide](../CONTRIBUTING.md).
