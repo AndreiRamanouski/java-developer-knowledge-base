@@ -221,6 +221,8 @@ A comprehensive reference for Java developers covering core internals, modern fe
 
 ---
 
+### Section 3: Collections Framework
+
 **Internal implementation of HashMap**
 - Array + LinkedList/TreeNode structure
 - Hash function and bucket selection
@@ -288,6 +290,60 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Defensive copying strategies
 - Performance of immutable collections
 - When to use immutability
+
+---
+
+### Section 4: Generics & Type System
+
+**Generics fundamentals and type erasure**
+- Generic classes, interfaces, methods
+- Type parameters (T, E, K, V)
+- Type erasure at compile time
+- Bridge methods
+- Raw types (legacy compatibility)
+- Reification vs erasure
+- Limitations due to erasure
+- Bounded type parameters and wildcards
+
+**Upper bounds (extends)**
+- Lower bounds (super)
+- Unbounded wildcards (?)
+- PECS (Producer Extends Consumer Super)
+- Multiple bounds
+- Generic methods vs generic classes
+- Real-world examples
+- Generic type inference and diamond operator
+
+**Type inference in method calls**
+- Diamond operator (<>) in Java 7+
+- Target typing in Java 8+
+- Type witness in method calls
+- Improved type inference in newer Java versions
+- When inference fails
+- Reified generics workarounds
+
+**Type tokens and TypeReference**
+- Passing Class T as parameter
+- Guava TypeToken
+- Jackson TypeReference
+- Creating generic arrays
+- Reflection with generics
+- Covariance and contravariance
+
+**Arrays are covariant (ArrayStoreException risk)**
+- Generics are invariant
+- Wildcard variance
+- Producer (covariance) vs Consumer (contravariance)
+- Return type covariance in methods
+- Real-world application
+- Advanced generic patterns
+
+**Recursive type bounds (Enum<E extends Enum<E>>)***
+- Self-referential generics
+- Generic builder pattern
+- Type-safe heterogeneous containers
+- Generic singleton pattern
+- Generic factory pattern
 
 ---
 
