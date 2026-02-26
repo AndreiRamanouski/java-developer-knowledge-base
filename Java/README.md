@@ -347,6 +347,46 @@ A comprehensive reference for Java developers covering core internals, modern fe
 
 ---
 
+### Section 5: Exception Handling & Error Management
+
+**Exception hierarchy and best practices**
+- Throwable → Error vs Exception
+- Checked vs unchecked exceptions
+- When to use each type
+- Custom exception design
+- Exception chaining (getCause())
+- Suppressed exceptions
+- Exception translation in layers
+- Try-with-resources and AutoCloseable
+
+**Automatic resource management**
+- AutoCloseable vs Closeable
+- Multiple resources in try-with-resources
+- Suppressed exceptions in TWR
+- Resource ordering and closing
+- Custom AutoCloseable implementations
+- Before Java 7 patterns
+- Exception handling anti-patterns
+
+**Catching Exception or Throwable**
+- Empty catch blocks
+- Using exceptions for flow control
+- Losing stack traces
+- Rethrowing without context
+- Exception swallowing
+- Correct patterns
+- Error handling in async and functional code
+
+**CompletableFuture exception handling**
+- Stream exception handling
+- Optional instead of exceptions
+- Either/Try monads (Vavr)
+- Checked exceptions in lambdas
+- Sneaky throws pattern
+- Best practices for async errors
+
+---
+
 ## Contributing
 
 Found an error, have a better example, or want to add a missing section? See the [Contributing Guide](../CONTRIBUTING.md).
