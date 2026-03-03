@@ -72,6 +72,13 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Jackson for JSON
 - Socket and ServerSocket
 
+**Section 7: Reflection & Dynamic Programming**
+- Core Reflection API
+- Annotations and annotation processing
+- Proxy pattern and dynamic proxies
+- Method handles and invokedynamic
+- Metaprogramming techniques
+
 ---
 
 ## Contributing
