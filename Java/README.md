@@ -10,6 +10,8 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Part II: Modern Java Features
 - Part III: Enterprise Java
 - Part IV: Specialized Topics
+- Part V: Interviews & Soft Skills
+- Part VI: Cutting Edge & Future
 
 ---
 
@@ -144,6 +146,62 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Caching strategies
 - Async and non-blocking optimization
 - JVM tuning for performance
+
+---
+
+### PART III: ENTERPRISE JAVA
+
+**Section 1: Design Patterns in Java**
+- Creational patterns
+- Structural patterns
+- Behavioral patterns
+- Concurrency patterns
+- Functional patterns
+- Anti-patterns to avoid
+- SOLID principles in Java
+- DRY, KISS, YAGNI principles
+- Dependency Injection patterns
+- Resource management patterns
+- Error handling patterns
+- Testing patterns
+
+**Section 2: Testing & Quality**
+- JUnit 5 advanced features
+- Mocking frameworks (Mockito, EasyMock)
+- Testing best practices
+- Integration testing strategies
+- Property-based testing
+- Mutation testing
+- Test coverage analysis
+- Performance testing
+
+**Section 3: Build Tools & Dependency Management**
+- Maven deep dive
+- Gradle fundamentals
+- Dependency management strategies
+- Build optimization
+
+**Section 4: Logging & Monitoring**
+- Logging frameworks (SLF4J, Logback, Log4j2)
+- Effective logging strategies
+- Application monitoring
+- Distributed tracing
+
+**Section 5: Security in Java**
+- Java Cryptography Architecture (JCA)
+- Secure coding practices
+- SSL/TLS in Java
+- Java Security Manager (deprecated but important)
+- Deserialization vulnerabilities
+- Dependency vulnerabilities
+
+**Section 6: Code Quality & Maintainability**
+- Static analysis tools
+- Code smells and refactoring
+- Clean code principles
+- Documentation strategies
+- Code review best practices
+- Technical debt management
 
 ---
 
