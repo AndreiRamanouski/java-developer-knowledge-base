@@ -11,7 +11,6 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Part III: Enterprise Java
 - Part IV: Specialized Topics
 - Part V: Interviews & Soft Skills
-- Part VI: Cutting Edge & Future
 
 ---
 
@@ -223,7 +222,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Reactive vs imperative
 - Testing reactive code
 
-**Section 22: Microservices Patterns**
+**Section 3: Microservices Patterns**
 - Service communication
 - Service discovery and load balancing
 - Resilience patterns
@@ -231,7 +230,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Configuration management
 - Observability in microservices
 
-**Section 23: Data Structures & Algorithms**
+**Section 4: Data Structures & Algorithms**
 - Tree structures
 - Graph algorithms
 - Sorting algorithms
@@ -241,13 +240,56 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - String algorithms
 - Bit manipulation
 
-**Section 24: System Design**
+**Section 5: System Design**
 - Scalability fundamentals
 - Database design decisions
 - Caching strategies
 - Message queues and event streaming
 - Rate limiting and throttling
 - High availability and disaster recovery
+
+---
+
+### PART V: INTERVIEWS & SOFT SKILLS
+
+**Section 1: Coding Interview Patterns**
+- Two pointers technique
+- Sliding window
+- Fast and slow pointers
+- Merge intervals
+- Cyclic sort
+- In-place reversal of linked list
+- Tree BFS and DFS
+- Backtracking
+- Top K elements
+- Modified binary search
+
+**Section 2: System Design Interview Prep**
+- URL shortener desig
+- Twitter/social media feed design
+- Rate limiter design
+- Web crawler design
+- Chat system design
+- File storage system (Dropbox/Google Drive)
+- Video streaming platform (YouTube/Netflix)
+- Distributed cache design
+
+**Section 3: Behavioral Interview Questions**
+- Leadership and mentorship
+- Problem-solving and debugging
+- Collaboration and communication
+- Project delivery and management
+- Growth and learning
+- Handling pressure and failure
+
+**Section 4: Architecture & Design Interview**
+
+- Monolith to microservices migration
+- Event-driven architecture design
+- API design principles
+- Database architecture decisions
+- Performance architecture
+- Security architecture
 
 ---
 
