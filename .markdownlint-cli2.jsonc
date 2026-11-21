@@ -1,0 +1,17 @@
+{
+  // CI lints only the Markdown files a pull request changes (see .github/workflows/docs-checks.yml).
+  // Rules are relaxed for long-form technical writing; structural rules stay on.
+  "config": {
+    "default": true,
+    "MD013": false,                          // line length: prose and tables are long by nature
+    "MD024": { "siblings_only": true },      // repeated headings like "Example" in different sections
+    "MD033": false,                          // inline HTML (e.g. <details>, TOC markers)
+    "MD036": false,                          // **Bold** lines used as small labels
+    "MD029": false,                          // ordered list numbering style
+    "MD004": false,                          // unordered list marker style
+    "MD007": { "indent": 2 },
+    "MD046": { "style": "fenced" },
+    "MD040": true                            // fenced code blocks must declare a language
+  },
+  "ignores": [".idea/**", "node_modules/**"]
+}

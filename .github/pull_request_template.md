@@ -20,6 +20,9 @@ What does this PR add or change?
 - [ ] I tested any code examples I added
 - [ ] My writing explains the "why", not just the "what"
 - [ ] I have not copied content directly from official documentation
+- [ ] New/changed pages have the `Applies to` / `Last updated` line, and I updated the date
+- [ ] Performance numbers are sourced, measured with JMH, or marked as illustrative
+- [ ] I ran `python3 scripts/generate_toc.py` and `python3 scripts/check_links.py`
 
 ---
 
