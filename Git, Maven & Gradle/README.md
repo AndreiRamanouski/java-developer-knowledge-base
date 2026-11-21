@@ -7,6 +7,7 @@ Git workflows, Maven and Gradle builds.
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. Git](1.%20Git)
 
 - [1. Git Fundamentals (Beyond Basics)](1.%20Git/1.%20Git%20Fundamentals%20%28Beyond%20Basics%29.md)
@@ -47,4 +48,5 @@ Git workflows, Maven and Gradle builds.
 ### Other
 
 - [Practical Comparison Table](Practical%20Comparison%20Table.md)
+
 <!-- toc:end -->

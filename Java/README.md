@@ -9,6 +9,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. Core Java](1.%20Core%20Java)
 
 - [Summary 1. Java Memory Model & Internals](1.%20Core%20Java/Summary%201.%20Java%20Memory%20Model%20%26%20Internals.md)
@@ -260,6 +261,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
   - [4. Database architecture decisions](5.%20Interviews%20%26%20Soft%20Skills/4.%20Architecture%20and%20Design%20Interview/4.%20Database%20architecture%20decisions.md)
   - [5. Performance architecture](5.%20Interviews%20%26%20Soft%20Skills/4.%20Architecture%20and%20Design%20Interview/5.%20Performance%20architecture.md)
   - [6. Security architecture](5.%20Interviews%20%26%20Soft%20Skills/4.%20Architecture%20and%20Design%20Interview/6.%20Security%20architecture.md)
+
 <!-- toc:end -->
 
 ---
@@ -269,6 +271,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ### Part I: Core Java Mastery
 
 **Section 1: Java Memory Model & Internals**
+
 - JVM memory architecture deep dive
 - Serial, Parallel, CMS, G1GC, ZGC, Shenandoah
 - Object creation (new, reflection, cloning, deserialization)
@@ -281,6 +284,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Diagnostic flags (-XX:+PrintFlagsFinal)
 
 **Section 2: Java Concurrency & Multithreading**
+
 - Thread creation and lifecycle
 - ThreadPoolExecutor parameters (corePoolSize, maximumPoolSize, keepAliveTime)
 - Creating CompletableFuture (supplyAsync, runAsync)
@@ -295,6 +299,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Double-checked locking (correct implementation)
 
 **Section 3: Collections Framework**
+
 - Internal implementation of HashMap
 - TreeMap (Red-Black tree implementation)
 - Internal structure comparison
@@ -305,6 +310,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Collections.unmodifiableXXX()
 
 **Section 4: Generics & Type System**
+
 - Generics fundamentals and type erasure
 - Upper bounds (extends)
 - Type inference in method calls
@@ -313,12 +319,14 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Recursive type bounds (Enum<E extends Enum<E>>)
 
 **Section 5: Exception Handling & Error Management**
+
 - Exception hierarchy and best practices
 - Automatic resource management
 - Catching Exception or Throwable
 - CompletableFuture exception handling
 
 **Section 6: I/O, NIO, and Serialization**
+
 - Traditional I/O vs NIO vs NIO.2
 - Path vs File
 - Java serialization (Serializable)
@@ -326,6 +334,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Socket and ServerSocket
 
 **Section 7: Reflection & Dynamic Programming**
+
 - Core Reflection API
 - Annotations and annotation processing
 - Proxy pattern and dynamic proxies
@@ -337,6 +346,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ### Part II: Modern Java Features
 
 **Section 1: Java 8 - Lambdas & Streams**
+
 - Lambda expressions deep dive
 - Stream API fundamentals
 - Advanced stream operations
@@ -347,6 +357,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Default and static methods in interfaces
 
 **Section 2: Java 9-11 Features**
+
 - Module system (Jigsaw)
 - Collection factory methods
 - Try-with-resources improvements
@@ -355,6 +366,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - New String methods and compact strings
 
 **Section 3: Java 12-17 Features**
+
 - Switch expressions (Java 12-14)
 - Text blocks (Java 13-15)
 - Records (Java 14-16)
@@ -364,6 +376,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - New methods in core libraries
 
 **Section 4: Java 18-21 Features**
+
 - Virtual threads (Project Loom - Java 19-21)
 - Pattern matching for switch (Java 21)
 - Record patterns (Java 19-21)
@@ -371,6 +384,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - String templates (preview in Java 21–22, withdrawn in Java 23 — not part of the language)
 
 **Section 5: Java 22-25 Features**
+
 - Unnamed variables and patterns (final in Java 22)
 - Flexible constructor bodies / statements before super() (final in Java 25)
 - Foreign Function & Memory API (final in Java 22)
@@ -383,12 +397,14 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Other notable Java 24–25 changes (virtual threads without pinning, AOT cache, compact object headers, …)
 
 **Section 6: JVM Languages & Interop**
- - Kotlin interoperability
+
+- Kotlin interoperability
 - Scala interoperability
 - Groovy in Java projects
 - GraalVM and native images
 
 **Section 7: Performance & Optimization**
+
 - JMH (Java Microbenchmark Harness)
 - Profiling techniques
 - Memory optimization strategies
@@ -405,6 +421,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ### Part III: Enterprise Java
 
 **Section 1: Design Patterns in Java**
+
 - Creational patterns
 - Structural patterns
 - Behavioral patterns
@@ -419,6 +436,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Testing patterns
 
 **Section 2: Testing & Quality**
+
 - JUnit 5 advanced features
 - Mocking frameworks (Mockito, EasyMock)
 - Testing best practices
@@ -429,18 +447,21 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Performance testing
 
 **Section 3: Build Tools & Dependency Management**
+
 - Maven deep dive
 - Gradle fundamentals
 - Dependency management strategies
 - Build optimization
 
 **Section 4: Logging & Monitoring**
+
 - Logging frameworks (SLF4J, Logback, Log4j2)
 - Effective logging strategies
 - Application monitoring
 - Distributed tracing
 
 **Section 5: Security in Java**
+
 - Java Cryptography Architecture (JCA)
 - Secure coding practices
 - SSL/TLS in Java
@@ -449,6 +470,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Dependency vulnerabilities
 
 **Section 6: Code Quality & Maintainability**
+
 - Static analysis tools
 - Code smells and refactoring
 - Clean code principles
@@ -461,6 +483,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ### Part IV: Specialized Topics
 
 **Section 1: Functional Programming in Java**
+
 - Pure functions and immutability
 - Higher-order functions
 - Monads in Java
@@ -469,6 +492,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Functional libraries (Vavr, Guava)
 
 **Section 2: Reactive Programming**
+
 - Reactive Streams specification
 - Project Reactor fundamentals
 - RxJava patterns
@@ -477,6 +501,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Testing reactive code
 
 **Section 3: Microservices Patterns**
+
 - Service communication
 - Service discovery and load balancing
 - Resilience patterns
@@ -485,6 +510,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Observability in microservices
 
 **Section 4: Data Structures & Algorithms**
+
 - Tree structures
 - Graph algorithms
 - Sorting algorithms
@@ -495,6 +521,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Bit manipulation
 
 **Section 5: System Design**
+
 - Scalability fundamentals
 - Database design decisions
 - Caching strategies
@@ -507,6 +534,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 ### Part V: Interviews & Soft Skills
 
 **Section 1: Coding Interview Patterns**
+
 - Two pointers technique
 - Sliding window
 - Fast and slow pointers
@@ -519,6 +547,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Modified binary search
 
 **Section 2: System Design Interview Prep**
+
 - URL shortener desig
 - Twitter/social media feed design
 - Rate limiter design
@@ -529,6 +558,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Distributed cache design
 
 **Section 3: Behavioral Interview Questions**
+
 - Leadership and mentorship
 - Problem-solving and debugging
 - Collaboration and communication

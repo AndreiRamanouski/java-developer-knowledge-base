@@ -11,6 +11,7 @@ A comprehensive, community-driven reference for Java and Spring Boot developers.
 Each section has its own README with a linked list of every page. Pages are numbered in suggested reading order.
 
 <!-- toc:start -->
+
 ### ☕ [Java](Java/README.md)
 
 Core Java, modern Java features (8 → 25), enterprise Java, specialized topics and interview preparation.
@@ -66,6 +67,7 @@ Git workflows, Maven and Gradle builds.
 1. [Git](Git%2C%20Maven%20%26%20Gradle/1.%20Git)
 2. [Maven](Git%2C%20Maven%20%26%20Gradle/2.%20Maven)
 3. [Gradle](Git%2C%20Maven%20%26%20Gradle/3.%20Gradle)
+
 <!-- toc:end -->
 
 ---

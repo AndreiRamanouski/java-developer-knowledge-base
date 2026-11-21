@@ -85,7 +85,7 @@ def root_toc():
 
 
 def replace_block(text, block):
-    body = "\n".join([START, *block, END])
+    body = "\n".join([START, "", *block, "", END])   # blank lines keep markdownlint (MD022/MD032) happy
     if START in text:
         return re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: body, text, flags=re.S)
     return text.rstrip("\n") + "\n\n## Contents\n\n" + body + "\n"

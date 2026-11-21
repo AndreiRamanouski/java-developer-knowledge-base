@@ -7,6 +7,7 @@ Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumer
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. Apache Kafka](1.%20Apache%20Kafka)
 
 - [1. Kafka fundamentals](1.%20Apache%20Kafka/1.%20Kafka%20fundamentals.md)
@@ -31,4 +32,5 @@ Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumer
 ### Other
 
 - [Kafka vs RabbitMQ](Kafka%20vs%20RabbitMQ.md)
+
 <!-- toc:end -->

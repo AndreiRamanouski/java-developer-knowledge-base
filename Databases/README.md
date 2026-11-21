@@ -7,6 +7,7 @@ PostgreSQL, MySQL and Oracle with Spring Boot, Liquibase and Flyway migrations, 
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. SQL Databases](1.%20SQL%20Databases)
 
 - **[1. PostgreSQL](1.%20SQL%20Databases/1.%20PostgreSQL)**
@@ -80,4 +81,5 @@ PostgreSQL, MySQL and Oracle with Spring Boot, Liquibase and Flyway migrations, 
   - [5. Capacity modes and performance](3.%20NoSQL/4.%20DynamoDB/5.%20Capacity%20modes%20and%20performance.md)
   - [6. Advanced features](3.%20NoSQL/4.%20DynamoDB/6.%20Advanced%20features.md)
   - [7. Best practices and anti-patterns](3.%20NoSQL/4.%20DynamoDB/7.%20Best%20practices%20and%20anti-patterns.md)
+
 <!-- toc:end -->
