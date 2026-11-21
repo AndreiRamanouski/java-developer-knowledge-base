@@ -7,6 +7,7 @@ Spring Core, Spring Boot, MVC & REST, data access, security, testing, WebFlux an
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. Spring Core Fundamentals](1.%20Spring%20Core%20Fundamentals)
 
 - [1. IoC Container & Dependency Injection](1.%20Spring%20Core%20Fundamentals/1.%20IoC%20Container%20%26%20Dependency%20Injection.md)
@@ -63,4 +64,5 @@ Spring Core, Spring Boot, MVC & REST, data access, security, testing, WebFlux an
 - [5. Security](9.%20Interview%20Preparation/5.%20Security.md)
 - [6. Testing](9.%20Interview%20Preparation/6.%20Testing.md)
 - [7. Advanced](9.%20Interview%20Preparation/7.%20Advanced.md)
+
 <!-- toc:end -->

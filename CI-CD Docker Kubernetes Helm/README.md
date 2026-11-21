@@ -7,6 +7,7 @@ Docker, Kubernetes, Helm and CI/CD pipelines for Java applications.
 ## Contents
 
 <!-- toc:start -->
+
 ### [1. Docker](1.%20Docker)
 
 - [1. Docker Fundamentals](1.%20Docker/1.%20Docker%20Fundamentals.md)
@@ -39,4 +40,5 @@ Docker, Kubernetes, Helm and CI/CD pipelines for Java applications.
 - [4. GitHub Actions](4.%20CI-CD/4.%20GitHub%20Actions.md)
 - [5. Best Practices](4.%20CI-CD/5.%20Best%20Practices.md)
 - [6. Complete Java CI-CD Pipeline](4.%20CI-CD/6.%20Complete%20Java%20CI-CD%20Pipeline.md)
+
 <!-- toc:end -->
