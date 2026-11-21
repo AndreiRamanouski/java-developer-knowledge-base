@@ -249,6 +249,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
   - [8. Distributed cache design](5.%20Interviews%20%26%20Soft%20Skills/2.%20System%20Design%20Interview%20Prep/8.%20Distributed%20cache%20design.md)
   - [9. Distributed message queue design (Kafka)](5.%20Interviews%20%26%20Soft%20Skills/2.%20System%20Design%20Interview%20Prep/9.%20Distributed%20message%20queue%20design%20%28Kafka%29.md)
   - [10. Distributed task queue design (RabbitMQ)](5.%20Interviews%20%26%20Soft%20Skills/2.%20System%20Design%20Interview%20Prep/10.%20Distributed%20task%20queue%20design%20%28RabbitMQ%29.md)
+  - [11. Real-time messaging system design (NATS)](5.%20Interviews%20%26%20Soft%20Skills/2.%20System%20Design%20Interview%20Prep/11.%20Real-time%20messaging%20system%20design%20%28NATS%29.md)
 - **[3. Behavioral Interview Questions](5.%20Interviews%20%26%20Soft%20Skills/3.%20Behavioral%20Interview%20Questions)**
   - [1. Leadership and mentorship](5.%20Interviews%20%26%20Soft%20Skills/3.%20Behavioral%20Interview%20Questions/1.%20Leadership%20and%20mentorship.md)
   - [2. Problem-solving and debugging](5.%20Interviews%20%26%20Soft%20Skills/3.%20Behavioral%20Interview%20Questions/2.%20Problem-solving%20and%20debugging.md)
@@ -560,6 +561,7 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Distributed cache design
 - Distributed message queue design (Kafka)
 - Distributed task queue design (RabbitMQ)
+- Real-time messaging system design (NATS)
 
 **Section 3: Behavioral Interview Questions**
 
