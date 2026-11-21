@@ -528,9 +528,11 @@ A comprehensive reference for Java developers covering core internals, modern fe
 - Scalability fundamentals
 - Database design decisions
 - Caching strategies
-- Message queues and event streaming
+- Message queues and event streaming (Kafka, RabbitMQ, SQS, NATS)
 - Rate limiting and throttling
 - High availability and disaster recovery
+
+Broker-specific guides for Apache Kafka, RabbitMQ and NATS (Spring Boot setup, consumers, error handling, reliability, testing) are in the [Message Brokers](../Message%20Brokers/README.md) section.
 
 ---
 
