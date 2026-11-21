@@ -1,5 +1,9 @@
 # Hazelcast with Spring Boot - Complete Guide
 
+> **Applies to:** Spring Boot 3.x · Java 17+ · **Last updated:** 2026-04-30
+
+> ⚠️ **About the numbers in this guide:** timings, throughput figures and "N× faster" comparisons are illustrative orders of magnitude, not reproducible benchmark results. Measure on your own hardware and workload before relying on them — see the [JMH guide](../../../Java/2.%20Modern%20Java%20Features/7.%20Performance%20%26%20Optimization/1.%20JMH%20%28Java%20Microbenchmark%20Harness%29.md) for how to benchmark properly.
+
 ## Overview
 
 Hazelcast is an in-memory distributed computing platform providing distributed data structures, caching, and computing capabilities. Unlike Redis (single-threaded, cache-focused), Hazelcast is multi-threaded and designed for distributed computing with built-in cluster management. It runs as embedded within your application (no separate server) or client-server mode. Perfect for distributed caching, session replication, distributed locks, and in-memory processing.
@@ -2782,3 +2786,13 @@ Hazelcast with Spring Boot:
 - ✅ **Production** - WAN replication, split-brain protection, MapStore persistence, security
 
 **Key Takeaway**: Hazelcast = distributed in-memory data grid + computing platform. Unlike Redis (single-threaded cache), Hazelcast is multi-threaded and designed for embedded deployment with automatic clustering. Use embedded mode for microservices (data co-located with compute), client-server for separate data tier. Near cache provides local caching (<0.1ms reads). IMap for distributed cache with backups. IQueue for distributed queues. ILock for coordination. Entry processors for atomic updates. Configure backups (min 1), split-brain protection (quorum), and WAN replication (DR). MapStore for persistence. Ideal for: distributed caching, session replication, distributed locks, in-memory computing, real-time applications.
+
+---
+
+## See also
+
+- [Caching strategies — in-process (JVM)](../../../Java/2.%20Modern%20Java%20Features/7.%20Performance%20%26%20Optimization/8.%20Caching%20strategies.md)
+- [Caching strategies — system design](../../../Java/4.%20Specialized%20Topics/5.%20System%20Design/3.%20Caching%20strategies.md)
+- [Spring Cache abstraction](../../../Spring%20%26%20Spring%20Boot/4.%20Data%20Access/3.%20Caching.md)
+- [Redis as a cache](../2.%20Redis/2.%20Redis%20as%20a%20cache.md)
+- [Distributed cache design — interview case study](../../../Java/5.%20Interviews%20%26%20Soft%20Skills/2.%20System%20Design%20Interview%20Prep/8.%20Distributed%20cache%20design.md)

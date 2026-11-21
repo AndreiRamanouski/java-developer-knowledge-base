@@ -1,0 +1,46 @@
+name: Docs checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    name: Links and tables of contents
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Relative links resolve
+        run: python3 scripts/check_links.py
+      - name: Tables of contents are up to date
+        run: python3 scripts/generate_toc.py --check
+
+  markdownlint:
+    name: Markdown lint (changed files)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Lint Markdown files changed in this PR
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          mapfile -t files < <(git diff --name-only --diff-filter=AMR "$BASE_SHA"...HEAD -- '*.md')
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No Markdown files changed."
+            exit 0
+          fi
+          printf 'Linting:\n'; printf '  %s\n' "${files[@]}"
+          npx --yes markdownlint-cli2@0.17.2 "${files[@]}"

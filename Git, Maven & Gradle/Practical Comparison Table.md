@@ -1,3 +1,7 @@
+# Practical Comparison Table
+
+> **Applies to:** Java 17+ · **Last updated:** 2026-02-22
+
 
 
 |               |                             |                              |                                 |

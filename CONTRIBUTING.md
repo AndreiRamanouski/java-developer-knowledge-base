@@ -67,6 +67,41 @@ Recommended approaches
 
 You don't need all sections for every PR — even a single well-written section is a valid contribution.
 
+### Page header
+
+Every page starts with a title and a metadata line:
+
+```markdown
+# Topic Title
+
+> **Applies to:** Java 17+ · **Last updated:** YYYY-MM-DD
+```
+
+- **Applies to** — the minimum Java version (and `Spring Boot 3.x` where relevant). For preview features say so, e.g. `Java 25 (preview — needs --enable-preview)`.
+- **Last updated** — update it whenever you change the content of a page.
+- For features that went through previews, add a **Status** note with the JEP links, saying which release made it final.
+
+### Numbers and benchmarks
+
+- Don't present invented timings or "N× faster" figures as results. Either link the source of a benchmark, include a runnable JMH benchmark, or say clearly that the numbers are illustrative.
+- Pages that contain illustrative numbers carry the ⚠️ *About the numbers in this guide* note under the title.
+
+### File names, size and links
+
+- Name files `N. Topic name.md` — one space after the number, no `4.0`-style numbers.
+- Keep pages focused. If a page grows past ~2,000 lines, split it into numbered files (interview follow-up Q&A can live in an `Interview follow-ups/` subfolder).
+- Link related pages in other sections under a `## See also` heading at the end of the page. Use relative links with spaces encoded as `%20`.
+
+### Checks
+
+CI runs these on every pull request; run them locally before pushing:
+
+```bash
+python3 scripts/generate_toc.py      # regenerate the linked tables of contents in the READMEs
+python3 scripts/check_links.py       # verify that relative links resolve
+npx markdownlint-cli2 "path/to/changed file.md"   # lint the files you changed
+```
+
 ---
 
 ## 🚀 How to Submit a PR
@@ -75,13 +110,13 @@ You don't need all sections for every PR — even a single well-written section 
 2. **Create a branch** with a descriptive name:
    ```
    git checkout -b add-redis-nosql-section
-   git checkout -b fix-kafka-consumer-example
+   git checkout -b fix-hikari-pool-sizing-example
    ```
 3. **Make your changes**
 4. **Commit** with a clear message:
    ```
    git commit -m "Add Redis section to NoSQL guide"
-   git commit -m "Fix incorrect Kafka consumer group example"
+   git commit -m "Fix incorrect HikariCP pool sizing example"
    ```
 5. **Push** and open a Pull Request against `main`
 6. Fill out the PR template
