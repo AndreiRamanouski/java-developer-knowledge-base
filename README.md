@@ -1,6 +1,6 @@
 # Java Developer Knowledge Base
 
-A comprehensive, community-driven reference for Java and Spring Boot developers. Covers everything from core Java to Spring Boot, databases, Kafka and RabbitMQ, Docker, Kubernetes, and beyond — with practical code examples, architectural explanations, and interview preparation.
+A comprehensive, community-driven reference for Java and Spring Boot developers. Covers everything from core Java to Spring Boot, databases, Kafka, RabbitMQ and NATS, Docker, Kubernetes, and beyond — with practical code examples, architectural explanations, and interview preparation.
 
 > Built by developers, for developers. All content is written from a hands-on perspective with real-world Spring Boot context.
 
@@ -46,10 +46,11 @@ PostgreSQL, MySQL and Oracle with Spring Boot, Liquibase and Flyway migrations, 
 
 ### 📨 [Message Brokers](Message%20Brokers/README.md)
 
-Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumers, error handling, reliability and testing.
+Apache Kafka, RabbitMQ and NATS with Spring Boot: fundamentals, producers and consumers, error handling, reliability and testing.
 
 1. [Apache Kafka](Message%20Brokers/1.%20Apache%20Kafka)
 2. [RabbitMQ](Message%20Brokers/2.%20RabbitMQ)
+3. [NATS](Message%20Brokers/3.%20NATS)
 
 ### 🐳 [CI-CD Docker Kubernetes Helm](CI-CD%20Docker%20Kubernetes%20Helm/README.md)
 

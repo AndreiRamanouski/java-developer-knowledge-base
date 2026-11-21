@@ -1,6 +1,6 @@
 # Message Brokers
 
-Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumers, error handling, reliability and testing.
+Apache Kafka, RabbitMQ and NATS with Spring Boot: fundamentals, producers and consumers, error handling, reliability and testing.
 
 [← Back to the main README](../README.md)
 
@@ -29,8 +29,16 @@ Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumer
 - [5. Reliability patterns](2.%20RabbitMQ/5.%20Reliability%20patterns.md)
 - [6. Testing RabbitMQ applications](2.%20RabbitMQ/6.%20Testing%20RabbitMQ%20applications.md)
 
+### [3. NATS](3.%20NATS)
+
+- [1. NATS fundamentals](3.%20NATS/1.%20NATS%20fundamentals.md)
+- [2. Core NATS with Java and Spring Boot](3.%20NATS/2.%20Core%20NATS%20with%20Java%20and%20Spring%20Boot.md)
+- [3. JetStream - streams and consumers](3.%20NATS/3.%20JetStream%20-%20streams%20and%20consumers.md)
+- [4. Key-value and object store](3.%20NATS/4.%20Key-value%20and%20object%20store.md)
+- [5. Testing and operating NATS](3.%20NATS/5.%20Testing%20and%20operating%20NATS.md)
+
 ### Other
 
-- [Kafka vs RabbitMQ](Kafka%20vs%20RabbitMQ.md)
+- [Kafka vs RabbitMQ vs NATS](Kafka%20vs%20RabbitMQ%20vs%20NATS.md)
 
 <!-- toc:end -->
