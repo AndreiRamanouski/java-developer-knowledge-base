@@ -21,6 +21,7 @@ SECTIONS = [
     ("Java", "☕", "Core Java, modern Java features (8 → 25), enterprise Java, specialized topics and interview preparation."),
     ("Spring & Spring Boot", "🌱", "Spring Core, Spring Boot, MVC & REST, data access, security, testing, WebFlux and advanced topics."),
     ("Databases", "🗄️", "PostgreSQL, MySQL and Oracle with Spring Boot, Liquibase and Flyway migrations, and NoSQL stores."),
+    ("Message Brokers", "📨", "Apache Kafka and RabbitMQ with Spring Boot: fundamentals, producers and consumers, error handling, reliability and testing."),
     ("CI-CD Docker Kubernetes Helm", "🐳", "Docker, Kubernetes, Helm and CI/CD pipelines for Java applications."),
     ("Git, Maven & Gradle", "🔧", "Git workflows, Maven and Gradle builds."),
 ]
